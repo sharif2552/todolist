@@ -41,7 +41,6 @@ router.delete("/:id", function (req, res) {
     });
 });
 
-
 // PUT (update) a todo item
 // PUT (update) a todo item
 router.put("/:id", function (req, res) {
@@ -54,6 +53,5 @@ router.put("/:id", function (req, res) {
       res.status(500).send(err);
     });
 });
-
 
 module.exports = router;
